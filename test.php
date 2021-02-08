@@ -41,13 +41,13 @@ class makeOrder
 }
 
 $order1 = new makeOrder();
-$order1->proceedPayment(new Zero(), 100);
+$order1->proceedPayment(new ZeroObserver(), 100);
 $order1->proceedPayment(new Five(), 100);
-$order1->proceedPayment(new Twenty(), 100);
+$order1->proceedPayment(new TwentyObserver(), 100);
 
 $order2 = new makeOrder();
-$order2->proceedPayment(new Zero(), 500);
+$order2->proceedPayment(new ZeroObserver(), 500);
 $order2->proceedPayment(new Five(), 500);
-$order2->proceedPayment(new Twenty(), 500);
+$order2->proceedPayment(new TwentyObserver(), 500);
 
 

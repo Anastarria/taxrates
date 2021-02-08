@@ -96,9 +96,9 @@ class makeOrder implements ObservableOrders
 }
 
 $order = new makeOrder();
-$order->attachObserver(new Zero());
+$order->attachObserver(new ZeroObserver());
 $order->attachObserver(new Five());
-$order->attachObserver(new Twenty());
+$order->attachObserver(new TwentyObserver());
 
 $order->createOrder(100);
 $order->createOrder(500);
