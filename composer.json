@@ -1,0 +1,19 @@
+{
+    "name": "anastasia/taxes",
+    "authors": [
+        {
+            "name": "Anastasia Zhuravel",
+            "email": "zhuravelanastasia444@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+
+    "autoload": {
+        "classmap": [
+            "ObservableClasses",
+            "Interfaces",
+            "Observers"
+        ]
+    }
+}
