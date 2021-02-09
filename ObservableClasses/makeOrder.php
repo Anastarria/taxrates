@@ -26,8 +26,12 @@ class makeOrder implements ObservableOrders
 
     public function notify($amount)
     {
+        date_default_timezone_set('Europe/Kiev');
+        $date = date('d-m-y h:i:s');
         foreach ($this->observers as $observer){
-            $observer->update($amount);
+            $total = $observer->getTotalAmount($amount);
+            echo "Заказ на сумму: $amount,  налог: " . $observer->getTax() . " итого: " . $total . "</br>" ;
+            file_put_contents("orderslog.txt", "Заказ на сумму: $amount,  налог: " . $observer->getTax() . " итого: " . $total . ". Дата и время заказа: $date." . PHP_EOL, FILE_APPEND);
         }
     }
 

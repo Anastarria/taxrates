@@ -2,27 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="addec47e-3241-4186-baa4-e302d9334f64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Interfaces/ObservableOrders.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interfaces/ObserverTaxRate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ObservableClasses/makeOrder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/FiveObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/TwentyObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Observers/ZeroObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Taxes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Taxes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/ObserverTaxRate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/ObserverTaxRate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObservableClasses/makeOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/ObservableClasses/makeOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/FiveObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/FiveObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/TwentyObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/TwentyObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observers/ZeroObserver.php" beforeDir="false" afterPath="$PROJECT_DIR$/Observers/ZeroObserver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/observer.php" beforeDir="false" afterPath="$PROJECT_DIR$/observer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/observer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1o1mHtEmtWNsDg464yxsSd3CEDc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -77,6 +85,12 @@
       <workItem from="1612787041838" duration="1246000" />
       <workItem from="1612806935112" duration="1756000" />
       <workItem from="1612808733311" duration="1577000" />
+      <workItem from="1612810551592" duration="1030000" />
+      <workItem from="1612811647643" duration="726000" />
+      <workItem from="1612812575439" duration="1762000" />
+      <workItem from="1612814403410" duration="892000" />
+      <workItem from="1612870177745" duration="1480000" />
+      <workItem from="1612871699553" duration="1268000" />
     </task>
     <servers />
   </component>

@@ -8,10 +8,9 @@ class TwentyObserver implements ObserverTaxRate
     {
         return $amount * (1+ $this->tax / 100);
     }
-
-    public function update(float $amount)
+    public function getTax()
     {
-        $total = $this->getTotalAmount($amount);
-        echo "Заказ на сумму: $amount,  налог: " . $this->tax . " итого: " . $total . "</br>" ;
+        $this->tax;
     }
+
 }
